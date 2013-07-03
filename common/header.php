@@ -23,12 +23,12 @@
                 <div class="navbar-inner">
                     <div class="container">
                         <ul class="nav">
-                            <li class="active"><a href="http://localhost/demo/cms/">Home</a></li>
-                            <li><a href="place-order.php">Place Order</a></li>
+                            <li class="active"><a href="<?php echo $_SERVER['HTTP_HOST']; ?>">Home</a></li>
                             <li><a href="#">Services</a></li>
-                            <li><a href="#">Downloads</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Prices</a></li>
+			    <li><a href="place-order.php">Order Now</a></li>
+                            <li><a href="#">Samples</a></li>
+                            <li><a href="#">Discounts</a></li>
                         </ul>
                     </div>
                 </div>
