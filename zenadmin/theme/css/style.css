@@ -1,0 +1,163 @@
+body {
+    /*padding-top: 20px;*/
+    padding-bottom: 60px;
+    background: url(../../../theme/img/bd_bg.png) repeat-y;
+}
+
+/* header */
+.header{
+    background: url(../../../theme/img/header_bg.jpg) no-repeat;
+    height: 50px;
+}
+
+/* Custom container */
+.container {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+.container > hr {
+    margin: 5px 0;
+}
+
+/* Customize the navbar links to be fill the entire space of the .navbar */
+.navbar .navbar-inner {
+    padding: 0;
+}
+.navbar .nav {
+    margin: 0;
+    display: table;
+    width: 100%;
+}
+/*.navbar .nav li {
+    display: table-cell;
+    width: 1%;
+    float: none;
+}*/
+.navbar .nav li a {
+    font-weight: bold;
+    text-align: center;
+    /*border-left: 1px solid rgba(255,255,255,.75);*/
+    border-right: 1px solid rgba(0,0,0,.1);
+}
+.navbar .nav li:first-child a {
+    border-left: 0;
+    border-radius: 3px 0 0 3px;
+}
+.navbar .nav li:last-child a {
+    border-right: 0;
+    border-radius: 0 3px 3px 0;
+}
+select,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.uneditable-input
+{height: 30px}
+
+label.valid {
+    width: 24px;
+    height: 24px;
+    background: url(theme/img/valid.png) center center no-repeat;
+    display: inline-block;
+    text-indent: -9999px;
+}
+label.error {
+    font-weight: bold;
+    color: red;
+    padding: 2px 8px;
+    margin-top: 2px;
+    display: inline;
+}
+
+table.dataTable thead th{text-align: left}
+
+.admin-nav{
+    background: url(../../theme/img/menu_bg.png) 0 -7px repeat-x;
+    border: none;
+    border-radius: 0;
+}
+.admin-nav li a{
+    text-shadow: none !important;
+    color:#fff !important;
+}
+
+.admin-nav li a:hover{
+    background: url(../../theme/img/menu_bg_hover.png) 0 -7px;
+}
+
+.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus{
+    background: url(../../theme/img/menu_bg_hover.png) 0 -7px !important;
+    box-shadow: none;
+}
+
+table.dataTable thead th{
+    height: 50px;
+    background: #0072C6;
+    color:#fff;
+}
+
+.home-left, .home-right{
+    background: #fff;
+    width:49%;
+    border: 1px solid #ccc;
+    float:left;
+    margin-right: 16px;
+    border-radius: 5px;
+    /*padding:10px;*/
+}
+
+.home-right{
+    margin-right: 0;
+}
+
+.box-content, .title-bar{
+    padding:10px;
+    float: left;
+}
+
+.title-bar{
+    background: #F9F9F9;
+    border-radius: 5px 5px 0 0;
+    border-bottom: 1px solid #ccc;
+    width: 96%;
+}
+
+.box-row{
+    padding: 5px;
+    alignment-adjust: central;
+    float: left;
+    width: 100%;
+}
+
+.inner-column{
+    background: #F3F3F3;
+    border-radius:5px;
+    width:103px;
+    height:58px;
+    float:left;
+    margin-right: 16px;
+    margin-bottom: 5px;
+    text-align: center;
+    color:#666666;
+}
+
+.inner-column span{
+    padding:20px 0;
+    display: inline-block;
+}
+
+.clm-last{
+    margin-right: 0;
+}
+table.dataTable tr.even{background-color:#B0C4DE!important}
